@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="logo"><img src="assets/img/logo.png" alt="logo"></div>
+            <div class="nav-bar">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Events</a></li>
+                    <li><a href="#">Sub Events</a></li>
+                    <li><a href="#">Business Summit</a></li>
+                    <li><a href="#">Property Expo</a></li>
+                </ul>
+
+            </div>
+            <div class="nav-btn">
+                <button>Register</button>
+            </div>
+            <div class="ham-bar" id="nav-bar-toogle">
+                <img id="navbar-menu" src="assets/img/bars-svgrepo-com.svg" width="50px" alt="">
+            </div>
+
+        </div>
+    </header>
+    <section>
+        <div class="hero-main">
+            <img src="assets/img/Untitledbanner-og-red.svg" alt="hero-img" width="100%">
+        </div>
+
+    </section>
+
+
+    <section class="desert-section">
+        <div class="desert-container">
+            <div class="desert-left">
+                <div class="desert-text">
+                    <div class="desert-heading">
+                        <h4>Dessert Master</h4>
+
+                    </div>
+                    <div class="desert-time">
+                        <p><img class="desert-calender" src="assets/img/calendar (1).png" width="20px" alt=""> May 25
+                            Fri 2024</p>
+                        <p><img src="assets/img/Location.png" width="20px" alt=""> Stage 01,expo Center Sharja</p>
+                    
+                    <div class="desert-description">
+                        <p>Dessert competition on May 19th! Traditional and fusion sweets showcased. Come satisfy your
+                            sweet cravings and be inspired!!</p>
+                    </div>
+                </div>
+                </div>
+                <div class="desert-image">
+                    <div class="desert-img"><img src="assets/img/desert-img.png" alt=""></div>
+                    <div class="desert-img-content">
+                        <h4>Lorem ipsum
+                            dolor sit</h4>
+                        <div class="desert-content-p">
+                            <p>Dessert competition on May 19th! Traditional and fusion sweets showcased. Come satisfy
+                                your sweet cravings and be inspired!!Dessert competition on May 19th! Traditional and
+                                fusion sweets showcased. Come satisfy!!</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="desert-right">
+                <div class="desert-card">
+                    <div class="card-image">
+                        <img src="assets/img/dot.svg" alt="">
+                    </div>
+                    <div class="card-heading">
+                        <h3>Desert Master</h3>
+                    </div>
+                    <div class="card-date">
+                        <p>May 21 Sun | 2:00PM - 3:00PM</p>
+                    </div>
+                    <div class="card-text">
+                        <p><img src="assets/img/calendar.png " width="12px" alt=""> Reg Deadline</p>
+                        <p style="font-size: 17px;">12 Aug 2023, 10.00am</p>
+                    </div>
+                    <div class="card-button">
+                        <button onclick="toggleLoginForm()">Register</button>
+                    </div>
+                </div>
+            </div>
+
+            <div id="loginModal" class="modal">
+                <div class="modal-content">
+                    <span class="close" onclick="toggleLoginForm()">&times;</span>
+                    <h3>Login Form</h3>
+                    <form>
+                        <input type="text" placeholder="Username" required>
+                        <input type="password" placeholder="Password" required>
+                        <button type="submit">Login</button>
+                    </form>
+                </div>
+            </div>
+    </section>
+
+    <section class="competition">
+        <div class="competition-container">
+            <div class="title-heading">
+                <h6>Rules for competition</h6>
+            </div>
+            <div class="rules-list">
+                <ul class="custom-list">
+                    <li>Submit dessert recipe and photo of the dish.</li>
+                    <li>Photo should make dessert look appetizing.</li>
+                    <li>Judges select top 20 based on recipe/photo quality, creativity, and originality.</li>
+                    <li>Final 120 must prepare dessert in person on May 19th.
+                        Judging criteria include taste, presentation</li>
+                    <li>creativity, and overall appeal</li>
+                    <li>Winner announced at end of competition.</li>
+                </ul>
+
+
+            </div>
+        </div>
+
+    </section>
+
+    <section class="timer-section">
+        <div class="timer-container">
+            <div class="timer-bg">
+
+            </div>
+            <div class="timer-heading">
+                <h5>Glimpse of Come on Kerala <br>
+                    Previous Editions</h5>
+            </div>
+            <div class="timer-p">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet justo ipsum. Sed accumsan
+                    quam vitae est varius fringilla. Pellentesque placerat <br>vestibulum lorem sed porta. Nullam mattis
+                    \justo ipsum. Sed
+                    accumsan quam vitae est varius fringilla. <br> Pellentesque placerat vestibulum lorem sed porta.
+                    Nullam mattis</p>
+            </div>
+            <div class="timer-box-time">
+                <div class="timer-box">
+                    <div class="timer-count">
+                        <div class="countdown">
+                            <div id="days" class="countdown-item">
+                                <span id="days-value">00 :</span>
+                                <span>Days</span>
+                            </div>
+                            <div id="hours" class="countdown-item">
+                                <span id="hours-value">00 :</span>
+                                <span>Hours</span>
+                            </div>
+                            <div id="minutes" class="countdown-item">
+                                <span id="minutes-value">00 :</span>
+                                <span>Minutes</span>
+                            </div>
+                            <div id="seconds" class="countdown-item">
+                                <span id="seconds-value">00 :</span>
+                                <span>Seconds</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="gallary">
+        <div class="gallary-container">
+            <div class="gallary-contents">
+                <div class="text">
+                    <h5>Glimpse of <br>
+                        <span> Come on Kerala</span><br>
+                        Previous Editions
+                    </h5>
+                    <div class="photo-button">
+                        <button class="photos-btn">Photos</button>
+                        <button class="videos-btn">Videos</button>
+                    </div>
+                </div>
+                <div class="video">
+                    <img src="assets/img/gallery/img-video.svg" alt="">
+                </div>
+
+            </div>
+            <div class="image-container-flex">
+                <div class="phtot-left">
+                    <div class="img-up">
+                        <img src="assets/img/gallery/1.png" alt="">
+                    </div>
+                    <div class="img-down">
+                        <div class="img-down-left">
+                            <img src="assets/img/gallery/2.png" alt="">
+                        </div>
+                        <div class="img-down-right">
+                            <img src="assets/img/gallery/3.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="photo-right">
+                    <div class="img-right-left">
+                        <img src="assets/img/gallery/4.png" alt="">
+                    </div>
+                    <div class="img-right-right">
+                        <div class="img-right-right-up">
+                            <img src="assets/img/gallery/5.png" alt="">
+                        </div>
+                        <div class="img-right-right-down">
+                            <img src="assets/img/gallery/6.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <footer class="footer-section">
+        <div class="footer-container">
+            <div class="footer-text">
+                <div class="row-1">
+                    <div class="footer-logo">
+                        <img src="assets/img/madhyamam.png" alt="">
+                    </div>
+                    <div class="footer-contact">
+                        <p>+971-58-545-7442</p>
+                        <p>+971-4-252-1071</p>
+                        <p><a href="cok@gulfmadhyamam.net">cok@gulfmadhyamam.net</a></p>
+                        <p><a href="www.madhyamam.com">www.madhyamam.com</a></p>
+                    </div>
+                </div>
+                <div class="row-2">
+                    <p>About Us</p>
+                    <p>Contact</p>
+                    <p>privacy & Policy</p>
+                    <p>Tearms & Conditions</p>
+                </div>
+                <div class="row-3">
+                    <p><b>Dubai Address</b></p>
+                    <p>Office:222,2nd Floor</p>
+                    <p>Le Solarium Building</p>
+                    <p>Dubai, United Arab Emirates</p>
+
+                </div>
+                <div class="row-4">
+                    <p> <b>Indian Address</b></p>
+                    <p>Corporate office</p>
+                    <p>PB No. 1708, Silver Hills PO,</p>
+                    <p>Calicut-12,Ph:(0495)2731500</p>
+                    <p> Calicut,kerala-India</p>
+
+                </div>
+
+            </div>
+            <div class="footer-social">
+                <hr style="margin-top: 20px ; margin-bottom: 20px;">
+                <div class="copy-text">
+                    <p>© 2024  Madhyamam.com All Rights Reserved Privacy Policy | Powerd by <a href="https://datahex.co/"> DataHex</a></p>
+                </div>
+                <div class="social-icons">
+
+                </div>
+            </div>
+
+
+        </div>
+
+
+
+    </footer>
+</body>
+<script src="assets/js/index.js"></script>
+
+</html>
