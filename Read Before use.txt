@@ -1,0 +1,5 @@
+ 
+
+I'm currently in the process of making the website responsive.
+
+Please find attached the index.html and login.html files. I've also included their corresponding CSS files. It's important to note that the CSS files are different for each HTML file. When utilizing the files, ensure that you link the HTML files with their corresponding CSS files for proper rendering.
