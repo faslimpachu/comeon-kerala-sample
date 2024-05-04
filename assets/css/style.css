@@ -239,7 +239,7 @@ header{
     background-image: url('../../assets/img/vector-frame.png');
 
   }
-  .timer-heading h5{
+   .timer-heading h5{
     font-size: 30px; 
     margin-top: 40px;
 
@@ -254,8 +254,9 @@ header{
     justify-content: center;
     align-items: center;
     font-family: Arial, sans-serif;
-    padding: 20px;
-   
+    padding: 25px;
+    
+  
   
   }
   .timer-box{
@@ -265,6 +266,9 @@ header{
     border-radius: 20px;
     border:none;
     margin: 15px;
+  }
+  .timer-box-time{
+    display: flex;
   }
   
   .countdown-item {
@@ -283,6 +287,7 @@ header{
     justify-content: center;
     flex-direction: column;
   }
+
   .modal {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
@@ -389,12 +394,12 @@ header{
     flex-direction: column;
     justify-content: space-between;
   }
-  .footer-section{
+ .footer-section{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-image: url('/assets/img/foter-vector.svg');
+    background-image: url('../../assets/img/foter-vector.svg');
   }
   .footer-container{
     width: 1300px;
@@ -427,7 +432,40 @@ header{
   }
 
   
+@media (max-width: 467px) {
+  .countdown{
+    display: flex;
+    flex-direction: column;
+  }
 
+
+  .countdown-item {
+    display: block; /* Display countdown items in separate blocks */
+    margin: 10px auto; /* Center the blocks */
+    text-align: center; /* Center the text within each block */
+
+    
+  }
+
+  .countdown-item span {
+    font-size: 25px; /* Decrease font size for smaller screens */
+    padding: 10px;
+  }
+
+  .timer-box{
+    background-color: white;
+    color: #4CAF4F;
+    font-weight: 200;
+    border-radius: 20px;
+    border:none;
+    margin: 20px;
+    width: 250px;
+  }
+  #days-value , #hours-value , #minutes-value ,#seconds-value{
+    font-size: 40px;
+    font-weight: 700;
+  }
+}
 
 
 
