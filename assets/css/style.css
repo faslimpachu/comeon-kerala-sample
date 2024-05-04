@@ -193,7 +193,7 @@ header{
     display: inline-block;
     width: 20px; 
     height: 15px; 
-    background-image: url('/assets/img/li-list.png'); 
+    background-image: url('../../assets/img/li-list.png'); 
     background-size: contain; 
     margin-right: 10px; 
   }
@@ -224,7 +224,7 @@ header{
  
   } */
   /* .timer-section{
-    background-image: url('/assets/img/vector-frame.png');
+    background-image: url('../../assets/img/vector-frame.png');
     background-repeat: no-repeat;
     object-fit: cover;
     background-position: center;
